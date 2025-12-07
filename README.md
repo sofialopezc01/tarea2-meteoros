@@ -10,6 +10,6 @@ El proyecto genera cientos de archivos de meteoros y luego calcula el intervalo 
 ## Contenido del repositorio
 - `generate_meteors.py` -> Genera entre 500 y 999 archivos con datos de meteoros.  
 - `analyze_meteors.py` -> Procesa los archivos generados y calcula el intervalo promedio.  
-- `meteoros/` -> Carpeta con los archivos de meteoros comprimidos en un archivo zip. `meteoro_XXX.txt`.  
+- meteoros.zip -> Archivo comprimido con todos los archivos `meteoro_XXX.txt` generados.
 - `stats-2.txt` -> Archivo con el resultado numérico del análisis.  
 - `README.md` -> Este documento.
