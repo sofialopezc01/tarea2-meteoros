@@ -1,2 +1,2 @@
-Numero total de eventos: 693
-Tiempo promedio entre meteoros: 248.13 segundos
+Numero total de eventos: 965
+Tiempo promedio entre meteoros: 178.98 segundos
