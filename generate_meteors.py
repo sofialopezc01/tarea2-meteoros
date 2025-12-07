@@ -20,7 +20,7 @@ def generar_datos_simulados(min_filas, max_filas, total_dias):
 
     # Carpeta donde se guardaran los archivos
     carpeta = "meteoros"
-    os. makedirs(carpeta, exist_ok=True) # Crea carpeta si no existe
+    os.makedirs(carpeta, exist_ok=True) # Crea carpeta si no existe
 
     # Elegir cuántos archivos generar
     num_archivos = random.randint(min_filas, max_filas)
