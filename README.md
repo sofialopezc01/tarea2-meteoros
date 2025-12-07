@@ -13,8 +13,3 @@ El proyecto genera cientos de archivos de meteoros y luego calcula el intervalo 
 - `meteoros/` -> Carpeta con los archivos de meteoros comprimidos en un archivo zip. `meteoro_XXX.txt`.  
 - `stats-2.txt` -> Archivo con el resultado numérico del análisis.  
 - `README.md` -> Este documento.
-
-## Instrucciones de uso
-1. Ejecutar el script de generación:
-   ```bash
-   python generate_meteors.py
