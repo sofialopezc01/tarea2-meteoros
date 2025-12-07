@@ -22,7 +22,7 @@ def calcular_intervalo_promedio(num_archivos, carpeta="meteoros"):
                 fecha_hora_str = f"{fecha_str} {hora_str}"
 
                 # Converte el string a un objeto datetime
-                timestmap = datetime.strptime(fecha_hora_str, "%Y-%m-%d %H:%M:%S")
+                timestamp = datetime.strptime(fecha_hora_str, "%Y-%m-%d %H:%M:%S")
                 eventos.append(timestmap)           # Guarda el timestramp para ordenarlo y restarlo
 
         except FileNotFoundError:
