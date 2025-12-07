@@ -2,6 +2,11 @@ import random
 from datetime import datetime, timedelta
 import os # Para la creación de directorios y manejo de archivos.
 
+# Definición de parámetros de la simulación
+TOTAL_DIAS = 2
+MIN_ARCHIVOS = 500
+MAX_ARCHIVOS = 999
+
 # 1. Script: generate_meteors.py
 # Crea entre 500 y 999 archivos de meteoros.
 # Cada archivo tiene un timestamp único dentro de 48 horas y algunos valores aleatorios.
