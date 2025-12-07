@@ -1,31 +1,26 @@
-# Tarea 2 Recuperativa – Simulación y Análisis de Lluvias de Meteoros  
-# Curso: FIS-1220-01 Programación  
-# Estudiante: Sofía Valentina López Catalán  
-# Fecha: 7 de diciembre de 2025  
+# Tarea 2 Recuperativa – Simulación y Análisis de Lluvias de Meteoros
+**Curso:** FIS-1220–01 Programación  
+**Estudiante:** Sofía Valentina López Catalán  
+**Fecha:** 7 de diciembre de 2025  
 
 ---
 
-# Contenido del repositorio
-- `TAREA_2_RECUPERATIVA_SOFIA_LOPEZ.ipynb` – Notebook completo con el código.
-- `stats.txt` – Resultado del análisis.
+## Descripción
+Este repositorio contiene la solución a la Tarea 2 Recuperativa.  
+El proyecto genera cientos de archivos de meteoros y luego calcula el intervalo promedio entre los eventos registrados.
 
 ---
 
-# Cómo ejecutar
-
-1. Abrir el notebook en Google Colab usando este enlace:
-
-  https://colab.research.google.com/github/sofialopezc01/tarea2-meteoros/blob/main/TAREA_2_RECUPERATIVA_SOFIA_LOPEZ.ipynb
-   
-2. Ejecutar las celdas en orden:
-   - Generación de meteoros
-   - Análisis de intervalos
-   - Reporte final
-
-3. Revisar el archivo `stats.txt` generado.
+## Contenido del repositorio
+- `generate_meteors.py` -> Genera entre 500 y 999 archivos con datos de meteoros.  
+- `analyze_meteors.py` -> Procesa los archivos generados y calcula el intervalo promedio.  
+- `meteoros/` -> Carpeta con los archivos de meteoros comprimidos en un archivo zip. `meteoro_XXX.txt`.  
+- `stats-2.txt` -> Archivo con el resultado numérico del análisis.  
+- `README.md` -> Este documento.
 
 ---
 
-# Resultado esperado
-
-El intervalo promedio entre meteoros debe estar entre **200 y 400 segundos**, dependiendo de la simulación.
+## Instrucciones de uso
+1. Ejecutar el script de generación:
+   ```bash
+   python generate_meteors.py
